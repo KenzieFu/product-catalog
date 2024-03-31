@@ -4,7 +4,7 @@ import gdscSeries from "../data/gdscSeries";
 import ReactLoading from 'react-loading';
 import { Helmet } from 'react-helmet';
 
-const TITLE = 'My Page Title';
+const TITLE = 'GDSC USU';
 
 class MyComponent extends React.PureComponent {
   render () {
@@ -18,6 +18,7 @@ class MyComponent extends React.PureComponent {
     )
   }
 }
+
 export const MainPage = () => {
   return (
     // body
