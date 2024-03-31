@@ -2,6 +2,22 @@ import React from "react";
 import { Product } from "../components/Product";
 import gdscSeries from "../data/gdscSeries";
 import ReactLoading from 'react-loading';
+import { Helmet } from 'react-helmet';
+
+const TITLE = 'My Page Title';
+
+class MyComponent extends React.PureComponent {
+  render () {
+    return (
+      <>
+        <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
+        ...
+      </>
+    )
+  }
+}
 export const MainPage = () => {
   return (
     // body
