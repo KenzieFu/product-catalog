@@ -6,7 +6,7 @@ export const Product = (props) => {
   return (
     <div id={item.productId} className="border-2 rounded-2xl p-2 md:p-4  m-auto ">
       {/* images */}
-      <div className="xl:w-[285px] xl:h-[225px] lg:w-[240px] lg:h-[180px]   md:w-[260px] md:h-[200px] sm:w-[240px] sm:h-[180px]  ">
+      <div className="xl:w-[285px] xl:h-[225px] lg:w-[240px] lg:h-[180px]   md:w-[260px] md:h-[200px] sm:w-[240px] sm:h-[180px] w-[300px] h-[240px] ">
         <img
           className="size-[100%] rounded-xl"
           src={`https://product-catalog-black.vercel.app/images/${imagetype}${item.image}`}
