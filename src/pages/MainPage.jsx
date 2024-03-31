@@ -5,7 +5,7 @@ import ReactLoading from 'react-loading';
 export const MainPage = () => {
   return (
     // body
-    <div className="m-10 ">
+    <div className="md:m-10 m-4 ">
       {/* banner */}
       <div></div>
       {/* list of Product */}
