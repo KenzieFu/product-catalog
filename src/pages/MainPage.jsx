@@ -29,7 +29,7 @@ export const MainPage = () => {
         </div>
         <div className="mt-16">
           <div className="border-b-2 my-5">
-            <h3 cclassName="md:text-xl text-lg  font-bold mx-4  text-orange-300">
+            <h3 className="md:text-xl text-lg  font-bold mx-4  text-orange-300">
               Doodle Google Series
             </h3>
           </div>
