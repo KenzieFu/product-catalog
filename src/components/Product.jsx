@@ -9,7 +9,7 @@ export const Product = (props) => {
       <div className="xl:w-[285px] xl:h-[225px] lg:w-[240px] lg:h-[180px]   md:w-[260px] md:h-[200px] sm:w-[240px] sm:h-[180px] w-[140px] h-[130px] ">
         <img
           className="size-[100%] rounded-xl"
-          src={`https://product-catalog-black.vercel.app/images/${imagetype}${item.image}`}
+          src={`https://gdscusu.vercel.app/images/${imagetype}${item.image}`}
           alt=""
         />
       </div>
